@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/todos_recibidos"
+            android:icon="@drawable/todos_recividos"
+            android:title="Todos los Recibidoss"/>
+        <item
+            android:id="@+id/recibidos"
+            android:icon="@drawable/recividos"
+            android:title="Recibidos" />
+        <item
+            android:id="@+id/no_leidos"
+            android:icon="@drawable/no_leidos"
+            android:title="No leídos" />
+        <item
+            android:id="@+id/todas_etiquetas"
+            android:title="TODAS LAS ETIQUETAS">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/destacados"
+                        android:icon="@drawable/destacados"
+                        android:title="Destacados" />
+                    <item
+                        android:id="@+id/pospuestos"
+                        android:icon="@drawable/pospuestos"
+                        android:title="Pospuestos" />
+                    <item
+                        android:id="@+id/importantes"
+                        android:icon="@drawable/importantes"
+                        android:title="Importantes" />
+                    <item
+                        android:id="@+id/enviados"
+                        android:icon="@drawable/enviados"
+                        android:title="Enviados" />
+                    <item
+                        android:id="@+id/programados"
+                        android:icon="@drawable/programados"
+                        android:title="Programados" />
+                    <item
+                        android:id="@+id/bandeja_salida"
+                        android:icon="@drawable/bandeja_salida"
+                        android:title="Bandeja de salida" />
+                    <item
+                        android:id="@+id/borradores"
+                        android:icon="@drawable/borradores"
+                        android:title="Borradores" />
+                    <item
+                        android:id="@+id/todos"
+                        android:icon="@drawable/todos"
+                        android:title="Tdos" />
+                    <item
+                        android:id="@+id/span"
+                        android:icon="@drawable/span"
+                        android:title="Span" />
+                    <item
+                        android:id="@+id/papelera"
+                        android:icon="@drawable/papelera"
+                        android:title="Papelera" />
+                </group>
+            </menu>
+        </item>
+        <item android:title="APPS DE GOOGLE ">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/calendario"
+                        android:icon="@drawable/calendario"
+                        android:title="Calendario" />
+                    <item
+                        android:id="@+id/contactos"
+                        android:icon="@drawable/contactos"
+                        android:title="Contactos" />
+                </group>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/configuracion"
+            android:icon="@drawable/configuracion"
+            android:title="Configuracion" />
+        <item
+            android:id="@+id/ayuda"
+            android:icon="@drawable/ayuda"
+            android:title="Ayuda y comentarios" />
+    </group>
+</menu>
